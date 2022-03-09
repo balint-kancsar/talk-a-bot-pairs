@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Készíts egy egyszerű kártya-párkereső játékot Angularban!
+
+  1. jeleníts meg a játékosnak 20 darab kártyát "lefordítva"
+  2. ha a játékos rákattint egy kártyára "fordítsd fel" és fedd fel a kártyán lévő képet
+  3. amikor a második kártya is felfordult:
+    a. ha a kártyák megegyeznek vedd ki őket a játékból
+    b. ha különbözőek, fordítsd őket vissza
+  4. a játék akkor ér véget, ha a játékos az összes párt megtalálta
+
+A teljes pontszámért teljesítsd az alábbi követelményeket:
+
+  1. használj Redux architektúrájú állapotkezelőt (pl. ngrx)
+  2. az alkalmazás legyen reszponzív
+  3. adj lehetőséget a játék újrakezdésére, az oldal újratöltése nélkül
+  4. jeleníts meg egy pontszámlálót, amit minden 2. kártyafordítás után növelsz
+  
+Csatolva találsz képeket amiket a kártyákhoz használhatsz.
+
+A megoldást egy github repo link formájában várjuk.

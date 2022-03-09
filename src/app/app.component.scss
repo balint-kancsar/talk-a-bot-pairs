@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 90px);
+  gap: 30px;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.restart-button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+@media (max-width: 850px) {
+  .grid {
+      grid-template-columns: repeat(4, 90px);
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+      grid-template-columns: repeat(2, 90px);
+  }
+}
