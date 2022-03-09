@@ -1,4 +1,4 @@
-# TalkABotPairs
+# Pairs
 
 ## Készíts egy egyszerű kártya-párkereső játékot Angularban!
 
